@@ -16,4 +16,6 @@ INSTALL:
 prerequisites: libmxl2-dev, for KNX functionality bcusdk-dev or knxd-dev will be required
 
 currently compiles with a simple:
+```
 gcc `xml2-config --cflags --libs` -o mahknxgw mahknxgw.c
+```
